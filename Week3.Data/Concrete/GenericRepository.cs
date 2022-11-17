@@ -16,7 +16,6 @@ namespace Week3.Data.Concrete
         private readonly Week3DbContext _Context;
         private readonly DbSet<TEntity> _Entity;
 
-
         public GenericRepository(Week3DbContext context)
         {
             _Context = context;
